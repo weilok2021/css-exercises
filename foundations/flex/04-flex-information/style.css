@@ -24,3 +24,42 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Solution*/
+
+/* .outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.inner-container {
+  display: flex;
+  gap: 52px;
+}
+
+.inner-container > div{
+  flex-basis: 200px;
+} */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  /* max-width: 200px; */
+  flex-basis: 200px;
+  flex-grow: 0;
+}
