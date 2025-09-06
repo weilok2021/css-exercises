@@ -67,3 +67,29 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My Solution */
+.modal {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+.icon, .close-button {
+  flex-shrink: 0;
+}
+
+.modal .main-container{
+  flex-shrink: 1;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
